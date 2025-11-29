@@ -1,0 +1,63 @@
+{
+    "name": "richardmsbr/privacy-shield-br",
+    "description": "Biblioteca PHP para detecção e anonimização de dados pessoais - LGPD/GDPR compliance. Detecta e mascara CPF, CNPJ, PIX, email, telefone automaticamente.",
+    "keywords": [
+        "lgpd",
+        "gdpr",
+        "privacy",
+        "anonymization",
+        "data-protection",
+        "cpf",
+        "cnpj",
+        "pix",
+        "masking",
+        "pii",
+        "brazil",
+        "laravel"
+    ],
+    "homepage": "https://github.com/richardmsbr/privacy-shield-br",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Richard",
+            "email": "richard@provise.com.br",
+            "homepage": "https://github.com/richardmsbr",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "fakerphp/faker": "^1.23",
+        "orchestra/testbench": "^8.0|^9.0",
+        "phpstan/phpstan": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "PrivacyShield\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PrivacyShield\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "analyse": "vendor/bin/phpstan analyse src --level=8"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PrivacyShield\\Laravel\\PrivacyShieldServiceProvider"
+            ],
+            "aliases": {
+                "Privacy": "PrivacyShield\\Laravel\\Facades\\Privacy"
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
