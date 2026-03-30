@@ -387,3 +387,16 @@ MIT License - veja [LICENSE](LICENSE) para detalhes.
 - [Documentação LGPD](https://www.gov.br/cidadania/pt-br/acesso-a-informacao/lgpd)
 - [GDPR](https://gdpr.eu/)
 - [Packagist](https://packagist.org/packages/richardmsbr/privacy-shield-br)
+
+
+---
+
+## Author
+
+**Richard Sakaguchi** - Solution Architect & AI Engineer
+
+- Website: [sakaguchi.ia.br](https://sakaguchi.ia.br)
+- SEO Tools: [seoexpress.com.br](https://seoexpress.com.br)
+- HuggingFace: [yoshii-ai](https://huggingface.co/yoshii-ai)
+- LinkedIn: [richard-ms](https://www.linkedin.com/in/richard-ms/)
+
